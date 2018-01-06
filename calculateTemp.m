@@ -12,6 +12,11 @@ function [ Temp ] = calculateTemp( Data, emissivity, distance, reflected_temp, a
 %   planck_F: Planck F constant from EXIF Metadata
 %   planck_O: Planck O constant from EXIF Metadata
 
+% Quellen http://130.15.24.88/exiftool/forum/index.php/topic,4898.60.html
+%         http://u88.n24.queensu.ca/exiftool/forum/index.php/topic,4898.msg23944.html#msg23944
+%         Prof. Minkina W., Dudzik S: Infrared Thermography: Errors and Uncertainties, Wiley, 2009
+
+
 % From EXIF Metadata to calculate air humidity impact
 % Atmospheric Trans Alpha 1       : 0.006569
 % Atmospheric Trans Alpha 2       : 0.012620

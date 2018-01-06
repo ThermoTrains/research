@@ -1,4 +1,4 @@
-data = [2844]; 
+data = [2844 ]; 
 emissivity = 0.95; 
 distance = 0; 
 reflected_temp = 20; 
